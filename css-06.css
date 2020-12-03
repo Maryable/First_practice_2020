@@ -1,0 +1,75 @@
+body {
+  font-family: "Gothic A1", sans-serif;
+  color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+.box {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+}
+.at1_title {
+  width: 500px;
+  height: 50px;
+  margin: 30px auto;
+  /* border-bottom: 3px solid #fad0c4; */
+  text-align: center;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  background: linear-gradient(to left, #0180a3, #18a3ac);
+  border-radius: 4px;
+}
+
+.container {
+  width: 54%;
+  height: 180px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 0 auto;
+  background: linear-gradient(120deg, #0180a3, #18a3ac);
+}
+
+.at1_box1 li {
+  width: 60%;
+  height: 50px;
+  margin-top: 1.5%;
+  margin-left: 20%;
+  font-weight: 300;
+  font-size: 20px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 50px;
+  background: white;
+}
+
+.at1_box1 li input {
+  width: 150px;
+  height: 35px;
+  margin-left: 10px;
+  border: none;
+  background: rgb(230, 230, 230);
+  border-radius: 4px;
+}
+
+.at1_box1 li:last-child input {
+  margin: 0;
+  width: 120px;
+  height: 30px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  background: #defcff;
+}
+
+.at1_box1 li:last-child input:last-child {
+  background: #ffcef9;
+}
